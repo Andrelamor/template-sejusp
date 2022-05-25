@@ -1,0 +1,19 @@
+      fields:
+        - name: Registros
+          type: integer
+        - name: Natureza
+          type: string
+        - name: Município
+          type: string
+        - name: Cod IBGE
+          type: integer
+        - name: Mês
+          type: integer
+        - name: Ano
+          type: integer
+        - name: RISP
+          type: integer
+        - name: RISP Nova
+          type: integer
+        - name: RMBH
+          type: string
