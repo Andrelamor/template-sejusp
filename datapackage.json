@@ -44,6 +44,8 @@
           },
           {
             "name": "RISP",
+            "title": "Região Integrada de Segurança Pública",
+            "description": "Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública",
             "type": "integer"
           },
           {
