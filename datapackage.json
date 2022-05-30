@@ -40,28 +40,28 @@
       "schema": {
         "fields": [
           {
-            "name": "Registros",
+            "name": "REGISTROS",
             "title": "Registros de crimes violentos",
             "type": "integer"
           },
           {
-            "name": "Natureza",
+            "name": "NATUREZA",
             "type": "string"
           },
           {
-            "name": "Município",
+            "name": "MUNICIPIO",
             "type": "string"
           },
           {
-            "name": "Cod IBGE",
+            "name": "COD_IBGE",
             "type": "integer"
           },
           {
-            "name": "Mês",
+            "name": "MES",
             "type": "integer"
           },
           {
-            "name": "Ano",
+            "name": "ANO",
             "type": "integer"
           },
           {
@@ -71,7 +71,7 @@
             "type": "integer"
           },
           {
-            "name": "RISP Nova",
+            "name": "RISP_NOVA",
             "type": "integer"
           },
           {
