@@ -29,24 +29,24 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - name: Registros
+        - name: REGISTROS
           title: Registros de crimes violentos
           type: integer
-        - name: Natureza
+        - name: NATUREZA
           type: string
-        - name: Município
+        - name: MUNICIPIO
           type: string
-        - name: Cod IBGE
+        - name: COD_IBGE
           type: integer
-        - name: Mês
+        - name: MES
           type: integer
-        - name: Ano
+        - name: ANO
           type: integer
         - name: RISP
           title: Região Integrada de Segurança Pública
           description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
           type: integer
-        - name: RISP Nova
+        - name: RISP_NOVA
           type: integer
         - name: RMBH
           type: string
