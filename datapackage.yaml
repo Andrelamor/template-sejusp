@@ -7,6 +7,7 @@ owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
 temporal:
   - start: 01-01-2022
     end: 31-03-2022
+frequência de atualização: mensal
 contributors:
   - title: Diretoria Central de Transparência Ativa
     role: publisher
