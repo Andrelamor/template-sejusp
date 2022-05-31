@@ -12,7 +12,10 @@ licenses:
     title: Creative Commons Attribution 4.0
     path: https://creativecommons.org/licenses/by/4.0/
 frequência de atualização: mensal
-keywords: crimes; estatísticas criminais; segurança
+keywords: 
+  - 'crimes'
+  - 'estatísticas criminais'
+  - 'segurança'
   - 
 resources:
   - name: crimes-violentos
