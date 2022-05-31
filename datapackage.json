@@ -19,7 +19,12 @@
     }
   ],
   "frequência de atualização": "mensal",
-  "keywords": "crimes; estatísticas criminais; segurança -",
+  "keywords": [
+    "crimes",
+    "estatísticas criminais",
+    "segurança",
+    null
+  ],
   "resources": [
     {
       "name": "crimes-violentos",
