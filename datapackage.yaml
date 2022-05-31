@@ -2,12 +2,7 @@ profile: data-package
 name: crimes-violentos
 title: Crimes Violentos
 description: Conjunto de dados em homologação para testar fluxo de documentação e publicação com template
-homepage: https://github.com/dados-mg/crimes-violentos
 owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
-temporal:
-  - start: 01-01-2022
-    end: 31-03-2022
-frequência de atualização: mensal
 contributors:
   - title: Diretoria Central de Transparência Ativa
     role: publisher
@@ -16,7 +11,9 @@ licenses:
   - name: CC-BY-4.0
     title: Creative Commons Attribution 4.0
     path: https://creativecommons.org/licenses/by/4.0/
-
+frequência de atualização: mensal
+keywords: crimes; estatísticas criminais; segurança
+  - 
 resources:
   - name: crimes-violentos
     title: Crimes Violentos
