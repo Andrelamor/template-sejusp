@@ -33,22 +33,37 @@ resources:
         - name: REGISTROS
           title: Registros de crimes violentos
           type: integer
+          description:
         - name: NATUREZA
           type: string
+          title:
+          description:
         - name: MUNICIPIO
           type: string
+          title:
+          description:
         - name: COD_IBGE
           type: integer
+          title:
+          description:
         - name: MES
           type: integer
+          title:
+          description:
         - name: ANO
           type: integer
+          title:
+          description:
         - name: RISP
           title: Região Integrada de Segurança Pública
           description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
           type: integer
         - name: RISP_NOVA
           type: integer
+          title:
+          description:
         - name: RMBH
           type: string
+          title:
+          description:
     scheme: file
