@@ -36,24 +36,24 @@ resources:
           description:
         - name: NATUREZA
           type: string
-          title:
-          description:
+          title: Observatorio teste dia 21
+          description: Natureza do crime cometido
         - name: MUNICIPIO
           type: string
-          title:
-          description:
+          title: Observatorio teste dia 21
+          description: MUNICIPIO conforme IBGE
         - name: COD_IBGE
           type: integer
-          title:
+          title: Observatorio teste dia 21
           description:
         - name: MES
           type: integer
-          title:
+          title: Mes cometimento do crime
           description:
         - name: ANO
           type: integer
-          title:
-          description:
+          title: Ano
+          description:Ano cometimento do crime
         - name: RISP
           title: Região Integrada de Segurança Pública
           description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
