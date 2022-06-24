@@ -6,7 +6,7 @@ owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
 contributors:
   - title: Diretoria Central de Transparência Ativa
     role: publisher
-    mail: transparencia@cge.mg.gov.br
+    email: transparencia@cge.mg.gov.br
 licenses:
   - name: CC-BY-4.0
     title: Creative Commons Attribution 4.0
