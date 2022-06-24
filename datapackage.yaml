@@ -33,7 +33,6 @@ resources:
         - name: REGISTROS
           title: Registros de crimes violentos
           type: integer
-          description:
         - name: NATUREZA
           type: string
           title: Observatorio teste dia 21
@@ -45,25 +44,19 @@ resources:
         - name: COD_IBGE
           type: integer
           title: Observatorio teste dia 21
-          description:
         - name: MES
           type: integer
           title: Mes cometimento do crime
-          description:
         - name: ANO
           type: integer
           title: Ano
-          description:Ano cometimento do crime
+          description: Ano cometimento do crime
         - name: RISP
           title: Região Integrada de Segurança Pública
           description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
           type: integer
         - name: RISP_NOVA
           type: integer
-          title:
-          description:
         - name: RMBH
           type: string
-          title:
-          description:
     scheme: file
