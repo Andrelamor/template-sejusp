@@ -8,7 +8,7 @@
     {
       "title": "Diretoria Central de Transparência Ativa",
       "role": "publisher",
-      "mail": "transparencia@cge.mg.gov.br"
+      "email": "transparencia@cge.mg.gov.br"
     }
   ],
   "licenses": [
@@ -46,23 +46,31 @@
           },
           {
             "name": "NATUREZA",
-            "type": "string"
+            "type": "string",
+            "title": "Observatorio teste dia 21",
+            "description": "Natureza do crime cometido"
           },
           {
             "name": "MUNICIPIO",
-            "type": "string"
+            "type": "string",
+            "title": "Observatorio teste dia 21",
+            "description": "MUNICIPIO conforme IBGE"
           },
           {
             "name": "COD_IBGE",
-            "type": "integer"
+            "type": "integer",
+            "title": "Observatorio teste dia 21"
           },
           {
             "name": "MES",
-            "type": "integer"
+            "type": "integer",
+            "title": "Mes cometimento do crime"
           },
           {
             "name": "ANO",
-            "type": "integer"
+            "type": "integer",
+            "title": "Ano",
+            "description": "Ano cometimento do crime"
           },
           {
             "name": "RISP",
