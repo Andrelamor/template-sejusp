@@ -32,6 +32,7 @@ resources:
         - name: REGISTROS
           title: Registros de crimes violentos
           type: integer
+          description: Registros de crimes violentos no tempo determinado
         - name: NATUREZA
           type: string
           title: Observatorio teste dia 21
