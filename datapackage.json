@@ -41,7 +41,8 @@
           {
             "name": "REGISTROS",
             "title": "Registros de crimes violentos",
-            "type": "integer"
+            "type": "integer",
+            "description": "Registros de crimes violentos no tempo determinado"
           },
           {
             "name": "NATUREZA",
