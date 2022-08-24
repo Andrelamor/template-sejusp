@@ -11,10 +11,10 @@ fields:
     type: string
     title: MUNICIPIO
     description: Nome do município em que ocorreu o crime.
-  - name: COD_IBGE
+  - name: COD_MUNICIPIO
     type: integer
-    title: CÓDIGO IBGE
-    description: Código do município.
+    title: CÓDIGO MUNICÍPIO
+    description: Código IBGE do município.
   - name: MES
     type: integer
     title: MÊS
