@@ -1,31 +1,33 @@
 fields:
   - name: REGISTROS
-    title: Registros de crimes violentos
+    title: REGISTROS
     type: integer
-    description: Registros de crimes violentos no tempo determinado
+    description: Quantidade de ocorrências registradas.
   - name: NATUREZA
     type: string
-    title: Observatorio teste dia 21
-    description: Natureza do crime cometido
+    title: NATUREZA
+    description: Natureza do crime cometido.
   - name: MUNICIPIO
     type: string
-    title: Observatorio teste dia 21
-    description: MUNICIPIO conforme IBGE
+    title: MUNICIPIO
+    description: Nome do município em que ocorreu o crime.
   - name: COD_IBGE
     type: integer
-    title: Observatorio teste dia 21
+    title: CÓDIGO IBGE
+    description: Código do município.
   - name: MES
     type: integer
-    title: Mes cometimento do crime
+    title: MÊS
+    description: Mês em que ocorreu o fato.
   - name: ANO
     type: integer
-    title: Ano
-    description: Ano cometimento do crime
+    title: ANO
+    description: Ano em que ocorreu o fato.
   - name: RISP
-    title: Região Integrada de Segurança Pública
-    description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
-    type: integer
-  - name: RISP_NOVA
+    title: RISP
+    description: Número de identificação da Região Integrada de Segurança Pública.
     type: integer
   - name: RMBH
+    title: RMBH
     type: string
+    description: Se pertence ou não à Região Metropolitana de Belo Horizonte.

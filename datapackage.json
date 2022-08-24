@@ -27,64 +27,714 @@
   "resources": [
     {
       "name": "crimes-violentos",
-      "title": "Crimes Violentos",
+      "title": "Crimes Violentos 2012",
       "dialect": {
         "delimiter": ";"
       },
       "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
-      "path": "data/crimes-violentos.csv",
+      "path": "data/crimes_violentos_2012.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "REGISTROS",
-            "title": "Registros de crimes violentos",
+            "title": "REGISTROS",
             "type": "integer",
-            "description": "Registros de crimes violentos no tempo determinado"
+            "description": "Quantidade de ocorrências registradas."
           },
           {
             "name": "NATUREZA",
             "type": "string",
-            "title": "Observatorio teste dia 21",
-            "description": "Natureza do crime cometido"
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
           },
           {
             "name": "MUNICIPIO",
             "type": "string",
-            "title": "Observatorio teste dia 21",
-            "description": "MUNICIPIO conforme IBGE"
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
           },
           {
             "name": "COD_IBGE",
             "type": "integer",
-            "title": "Observatorio teste dia 21"
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
           },
           {
             "name": "MES",
             "type": "integer",
-            "title": "Mes cometimento do crime"
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
           },
           {
             "name": "ANO",
             "type": "integer",
-            "title": "Ano",
-            "description": "Ano cometimento do crime"
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
           },
           {
             "name": "RISP",
-            "title": "Região Integrada de Segurança Pública",
-            "description": "Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública",
-            "type": "integer"
-          },
-          {
-            "name": "RISP_NOVA",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
             "type": "integer"
           },
           {
             "name": "RMBH",
-            "type": "string"
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos2",
+      "title": "Crimes Violentos 2013",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2013.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos3",
+      "title": "Crimes Violentos 2014",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2014.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos4",
+      "title": "Crimes Violentos 2015",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2015.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos5",
+      "title": "Crimes Violentos 2016",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2016.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos6",
+      "title": "Crimes Violentos 2017",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos7",
+      "title": "Crimes Violentos 2018",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2018.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos8",
+      "title": "Crimes Violentos 2019",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2019.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos9",
+      "title": "Crimes Violentos 2020",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2020.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos10",
+      "title": "Crimes Violentos 2021",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2021.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "name": "crimes-violentos11",
+      "title": "Crimes Violentos 2022",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "path": "data/crimes_violentos_2022.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "REGISTROS",
+            "title": "REGISTROS",
+            "type": "integer",
+            "description": "Quantidade de ocorrências registradas."
+          },
+          {
+            "name": "NATUREZA",
+            "type": "string",
+            "title": "NATUREZA",
+            "description": "Natureza do crime cometido."
+          },
+          {
+            "name": "MUNICIPIO",
+            "type": "string",
+            "title": "MUNICIPIO",
+            "description": "Nome do município em que ocorreu o crime."
+          },
+          {
+            "name": "COD_IBGE",
+            "type": "integer",
+            "title": "CÓDIGO IBGE",
+            "description": "Código do município."
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "title": "MÊS",
+            "description": "Mês em que ocorreu o fato."
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "title": "ANO",
+            "description": "Ano em que ocorreu o fato."
+          },
+          {
+            "name": "RISP",
+            "title": "RISP",
+            "description": "Número de identificação da Região Integrada de Segurança Pública.",
+            "type": "integer"
+          },
+          {
+            "name": "RMBH",
+            "title": "RMBH",
+            "type": "string",
+            "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
           }
         ]
       },
