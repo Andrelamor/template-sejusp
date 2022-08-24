@@ -1,19 +1,31 @@
-      fields:
-        - name: Registros
-          type: integer
-        - name: Natureza
-          type: string
-        - name: Município
-          type: string
-        - name: Cod IBGE
-          type: integer
-        - name: Mês
-          type: integer
-        - name: Ano
-          type: integer
-        - name: RISP
-          type: integer
-        - name: RISP Nova
-          type: integer
-        - name: RMBH
-          type: string
+fields:
+  - name: REGISTROS
+    title: Registros de crimes violentos
+    type: integer
+    description: Registros de crimes violentos no tempo determinado
+  - name: NATUREZA
+    type: string
+    title: Observatorio teste dia 21
+    description: Natureza do crime cometido
+  - name: MUNICIPIO
+    type: string
+    title: Observatorio teste dia 21
+    description: MUNICIPIO conforme IBGE
+  - name: COD_IBGE
+    type: integer
+    title: Observatorio teste dia 21
+  - name: MES
+    type: integer
+    title: Mes cometimento do crime
+  - name: ANO
+    type: integer
+    title: Ano
+    description: Ano cometimento do crime
+  - name: RISP
+    title: Região Integrada de Segurança Pública
+    description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
+    type: integer
+  - name: RISP_NOVA
+    type: integer
+  - name: RMBH
+    type: string

@@ -17,46 +17,124 @@ keywords:
   - 'estatísticas criminais'
   - 'segurança'
 resources:
-  - name: crimes-violentos
-    title: Crimes Violentos
-    dialect:
-      delimiter: ;
+  - name: crimes-violentos-2012
+    title: Crimes Violentos 2012
+    dialect: schemas/dialect_v1.yaml
     encoding: utf-8-sig
     format: csv
     hashing: md5
     name: crimes-violentos
-    path: data/crimes-violentos.csv
+    path: data/crimes_violentos_2012.csv
     profile: tabular-data-resource
-    schema:
-      fields:
-        - name: REGISTROS
-          title: Registros de crimes violentos
-          type: integer
-          description: Registros de crimes violentos no tempo determinado
-        - name: NATUREZA
-          type: string
-          title: Observatorio teste dia 21
-          description: Natureza do crime cometido
-        - name: MUNICIPIO
-          type: string
-          title: Observatorio teste dia 21
-          description: MUNICIPIO conforme IBGE
-        - name: COD_IBGE
-          type: integer
-          title: Observatorio teste dia 21
-        - name: MES
-          type: integer
-          title: Mes cometimento do crime
-        - name: ANO
-          type: integer
-          title: Ano
-          description: Ano cometimento do crime
-        - name: RISP
-          title: Região Integrada de Segurança Pública
-          description: Área geográfica/territorial de responsabilidade da atuação dos órgãos de segurança pública
-          type: integer
-        - name: RISP_NOVA
-          type: integer
-        - name: RMBH
-          type: string
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2013
+    title: Crimes Violentos 2013
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2013.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2014
+    title: Crimes Violentos 2014
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2014.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2015
+    title: Crimes Violentos 2015
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2015.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2016
+    title: Crimes Violentos 2016
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2016.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2017
+    title: Crimes Violentos 2017
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2017.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2018
+    title: Crimes Violentos 2018
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2018.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2019
+    title: Crimes Violentos 2019
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2019.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2020
+    title: Crimes Violentos 2020
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2020.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2021
+    title: Crimes Violentos 2021
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2021.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes-violentos-2022
+    title: Crimes Violentos 2022
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_2022.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
     scheme: file
