@@ -25,6 +25,10 @@ update: ## Atualiza dataset e todos os seus recursos em instância do CKAN
 	@echo "Atualiza conjunto..."
 	@dpckan --datastore dataset update
 
+resource-create:
+	@echo "Cria recursos..."
+	@python ./scripts/create_resource.py
+
 build: datapackage.json ## Constroi arquivo datapackage.json a partir do arquivo datapackage.yaml
 
 datapackage.json: datapackage.yaml $(CSV_FILES) $(SCHEMAS_FILES)
