@@ -60,7 +60,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -125,7 +125,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -190,7 +190,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -255,7 +255,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -320,7 +320,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -385,7 +385,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -450,7 +450,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -515,7 +515,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -580,7 +580,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -645,7 +645,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
@@ -710,7 +710,7 @@
             "name": "COD_MUNICIPIO",
             "type": "integer",
             "title": "CÓDIGO MUNICÍPIO",
-            "description": "Código IBGE do município."
+            "description": "Código do município."
           },
           {
             "name": "MES",
