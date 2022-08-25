@@ -1,6 +1,6 @@
 include config.mk
 
-.PHONY: help start list validate create update data build compare clean
+.PHONY: help start list validate create update build compare clean
 
 help: ## Informa breve descrição dos comando
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
@@ -24,12 +24,6 @@ create: ## Cria dataset e todos os seus recursos em instância do CKAN
 update: ## Atualiza dataset e todos os seus recursos em instância do CKAN
 	@echo "Atualiza conjunto..."
 	@dpckan --datastore dataset update
-
-data: $(CSV_FILES)  ## Converte arquivos xlsx para csv
-
-$(CSV_FILES): data/%.csv : upload/%.xlsx
-	@echo Converting upload/$*.xlsx file to data/$*.csv...
-	@python ./scripts/convert_csv.py $< $@
 
 build: datapackage.json ## Constroi arquivo datapackage.json a partir do arquivo datapackage.yaml
 
