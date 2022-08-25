@@ -20,8 +20,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Clean
         run: make clean
-      - name: Data
-        run: make data
       - name: Build
         run: make build
       - name: Commit new datapackage.json
