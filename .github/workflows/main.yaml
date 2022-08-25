@@ -62,8 +62,3 @@ jobs:
           CKAN_HOST: ${{ secrets.CKAN_HOST }}
           CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
         run: dpckan --datastore --ckan-host "$CKAN_HOST" --ckan-key "$CKAN_KEY" dataset update
-      # - name: Create resources
-      #   with:
-      #     fetch-depth: 0
-      #     ref: main
-      #   run: make resource-create
