@@ -36,20 +36,49 @@ Essa etapa é realizada após a equipe da DTA vincular os usuários ao repositó
 
 #### 2.1 Atualização
 
-Sempre que os dados forem alterados, as novas informações devem ser atualizadas no repositório do GitHub.
+##### 2.1.1 Arquivos já existentes
+
+Sempre que os dados de um arquivo já existente na pasta **/data/** forem alterados, as novas informações devem ser atualizadas no repositório do GitHub.
 
 **Premissas:**
 
-- Cada evento deve ser salvo em uma nova linha na planilha excel;
-- A estrutura do arquivo não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas);
-- O arquivo atualizado deve ser o mesmo nome do já existente na pasta **/upload/** 
-- O arquivo deve ser salvo no formato .xlxs
+- Cada evento deve ser salvo em uma nova linha no arquivo csv;
+- A estrutura do arquivo csv (descrita nos arquivos da pasta **schemas**) não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas);
+- O arquivo atualizado deve ter o mesmo nome do já existente na pasta **/data/**; 
+- O arquivo deve ser salvo no formato .csv com BOM.
+
+##### 2.1.2 Novos Arquivos
+
+Sempre que um novo arquivo (novo ano) for gerado o mesmo deve ser incluído na pasta **/data/** do repositório do GitHub.
+
+**Premissas:**
+
+- A estrutura do arquivo csv (descrita nos arquivos da pasta **schemas**) não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas);
+- O novo arquivo deve seguir o mesmo padrão de nome dos arquivos existentes na pasta **/data/** (crimes_violentos_20XX.csv); 
+- O arquivo deve ser salvo no formato .csv com BOM.
+- O novo arquivo deverá ser incluído na propriedade `resources` do arquivo `datapackage.yaml`, conforme ilustrado abaixo, devendo a identação ser respeitada:
+  
+```
+resources:
+  ...
+  - name: crimes-violentos-20XX
+    title: Crimes Violentos 20XX
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: crimes-violentos
+    path: data/crimes_violentos_20XX.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+```
 
 #### 2.2 Upload
 
-Após a atualização dos dados, acesse a sua conta do [Github](https://github.com/login) e em seguida acesse o repositório do conjunto de dados.
+Após a atualização/criação dos arquivos de dados (.csv), acesse a sua conta do [Github](https://github.com/login) e em seguida acesse o repositório do conjunto de dados.
 
-- Na pasta **/upload/** clique em *Add file* (Adicionar arquivo) e em seguida clique em *upload files* (upload de arquivos*);
+- Na pasta **/data/** clique em *Add file* (Adicionar arquivo) e em seguida clique em *upload files* (upload de arquivos*);
 
 ![](static/upload.png)
 
@@ -64,9 +93,9 @@ Após a atualização dos dados, acesse a sua conta do [Github](https://github.c
 
 ## 3. Validação
 
-Após realizar o *commit* do arquivo, é necessário verificar se o mesmo foi validado. Ou seja, se o arquivo está de acordo com os metadados descritos no `datapackage.json`.
+Após realizar o *commit* do arquivo, é necessário verificar se o mesmo foi validado. Ou seja, se o arquivo está de acordo com os metadados descritos no `datapackage.yaml` (e também nos arquivos da pasta `schemas`).
 
-- Na página inicila do Repositório, clique em *Actions* (terceira opção do menu supoerior). O campo *All workflows* irá apresentar todos os *commits* realizados no repositório.
+- Na página inicial do Repositório, clique em *Actions* (terceira opção do menu superior). O campo *All workflows* irá apresentar todos os *commits* realizados no repositório.
 
 - Clique no *commit* desejado e verifique o fluxo de validação.
 
