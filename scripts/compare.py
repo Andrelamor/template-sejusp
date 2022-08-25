@@ -8,7 +8,7 @@ def compare_data_resource_paths():
   data_resources_paths.remove('data/.gitkeep')
   local_package = Package('datapackage.json')
   datapackage_resouces_paths = [i["path"] for i in local_package.resources]
-  if data_resources_paths != datapackage_resouces_paths:
+  if data_resources_paths.sort() != datapackage_resouces_paths.sort():
     print("Resources presentes no arquivo datapackage.json diferente dos listados da pasta data.")
     sys.exit(1)
 
