@@ -31,7 +31,6 @@ Essa etapa é realizada após a equipe da DTA vincular os usuários ao repositó
 - Clique em  *New repository secrets* e insira o nome do usuário no campos *Name* **CKAN_KEY_NOMEUSUARIO** (alterando o "nomeusuario" para o nome cadastrado no Portal Dados Abertos)
 - Insira a chave da API no campo *Value* e clique em *Add secret*.
 
-
 ## 2- Atualização e validação no GitHub
 
 #### 2.1 Atualização
@@ -43,7 +42,7 @@ Sempre que os dados de um arquivo já existente na pasta **/data/** forem altera
 **Premissas:**
 
 - Cada evento deve ser salvo em uma nova linha no arquivo csv;
-- A estrutura do arquivo csv (descrita nos arquivos da pasta **schemas**) não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas);
+- A estrutura do arquivo csv (descrita nos arquivos da pasta **schemas**) não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas, etc.);
 - O arquivo atualizado deve ter o mesmo nome do já existente na pasta **/data/**; 
 - O arquivo deve ser salvo no formato .csv com BOM.
 
@@ -53,7 +52,7 @@ Sempre que um novo arquivo (novo ano) for gerado o mesmo deve ser incluído na p
 
 **Premissas:**
 
-- A estrutura do arquivo csv (descrita nos arquivos da pasta **schemas**) não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas);
+- A estrutura do arquivo csv (descrita nos arquivos da pasta **schemas**) não pode ser alterada (quantidade e ordem das colunas, características dos valores de cada uma delas, etc.);
 - O novo arquivo deve seguir o mesmo padrão de nome dos arquivos existentes na pasta **/data/** (crimes_violentos_20XX.csv); 
 - O arquivo deve ser salvo no formato .csv com BOM.
 - O novo arquivo deverá ser incluído na propriedade `resources` do arquivo `datapackage.yaml`, conforme ilustrado abaixo, devendo a identação ser respeitada:
@@ -67,7 +66,6 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: crimes-violentos
     path: data/crimes_violentos_20XX.csv
     profile: tabular-data-resource
     schema: schemas/schema_v1.yaml
