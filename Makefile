@@ -26,7 +26,7 @@ update: ## Atualiza dataset e todos os seus recursos em instância do CKAN
 	@dpckan --datastore dataset update
 
 resource-create: ## Cria recursos em instância do CKAN
-	@echo "Cria recursos..."
+	@echo "Criando no CKAN recursos inexistentes..."
 	@python ./scripts/create_resource.py $(CKAN_HOST)
 
 build: datapackage.json ## Constroi arquivo datapackage.json a partir do arquivo datapackage.yaml
