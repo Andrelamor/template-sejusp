@@ -25,6 +25,12 @@ update: ## Atualiza dataset e todos os seus recursos em instância do CKAN
 	@echo "Atualiza conjunto..."
 	@dpckan --datastore dataset update
 
+data: $(CSV_FILES)  ## Converte arquivos xlsx para csv
+
+$(CSV_FILES): data/%.csv : upload/%.xlsx
+	@echo Converting upload/$*.xlsx file to data/$*.csv...
+	@python ./scripts/convert_csv.py $< $@
+
 resource-create: ## Cria recursos em instância do CKAN
 	@echo "Criando no CKAN recursos inexistentes..."
 	@python ./scripts/create_resource.py $(CKAN_HOST)
