@@ -4,8 +4,11 @@ title: Crimes Violentos
 description: Conjunto de dados em homologação para testar fluxo de documentação e publicação com template
 owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
 contributors:
+  - title: Diretoria de Informações de Segurança Pública  
+    role: author
+    email: ramon.oliveira@seguranca.mg.gov.br
   - title: Diretoria Central de Transparência Ativa
-    role: publisher
+    role: maintainer
     email: transparencia@cge.mg.gov.br
 licenses:
   - name: CC-BY-4.0
