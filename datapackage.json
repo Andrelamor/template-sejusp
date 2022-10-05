@@ -4,6 +4,7 @@
   "title": "Crimes Violentos",
   "description": "Conjunto de dados em homologação para testar fluxo de documentação e publicação com template",
   "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp",
+  "homepage": "https://github.com/dados-mg/crimes-violentos",
   "contributors": [
     {
       "title": "Diretoria de Informações de Segurança Pública",
