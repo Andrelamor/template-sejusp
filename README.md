@@ -10,7 +10,7 @@ Para os Registros de Homicídios Consumados de Belo Horizonte, até dezembro de 
 
 A Região Integrada de Segurança Pública – RISP é uma das divisões territoriais administrativas existentes no estado de Minas Gerais e a mais frequentemente utilizada em estudos da SEJUSP, além da divisão por municípios. Atualmente, Minas Gerais possui 19 RISPs.
 
-Metodologia Utilizada
+## Metodologia Utilizada
 
 Os dados estão disponíveis apenas a partir de 2012, tendo em vista que a implementação do sistema Reds em todo o estado de Minas Gerais só ocorreu no final de 2011. Os dados são extraídos no quinto dia do mês ou no primeiro dia útil subsequente. Dessa forma, registros de um mês que são fechados nos primeiros dias do mês posterior são contabilizados na pesquisa.
 
