@@ -17,6 +17,9 @@ licenses:
     title: Creative Commons Attribution 4.0
     path: https://creativecommons.org/licenses/by/4.0/
 frequência de atualização: mensal
+temporal:
+  - start: 2012-01-31
+    end: 2022-05-30
 keywords: 
   - 'crimes'
   - 'estatísticas criminais'
