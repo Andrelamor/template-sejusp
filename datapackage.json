@@ -26,9 +26,9 @@
     }
   ],
   "frequência de atualização": "mensal",
-  "temporal: {
+  "temporal": {
   start: 2012-01-01,
-  end: 2022-05-30
+  end: 2022-06-30
   },
   "keywords": [
     "crimes",
