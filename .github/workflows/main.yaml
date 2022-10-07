@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'datapackage.yaml'
-      - 'datapackage.json'
       - 'schemas/*'
       - 'README.md'
       - 'CHANGELOG.md'
