@@ -37,7 +37,7 @@ resource-create: ## Cria recursos em instância do CKAN
 
 build: datapackage.json ## Constroi arquivo datapackage.json a partir do arquivo datapackage.yaml
 
-datapackage.json: datapackage.yaml $(CSV_FILES) $(SCHEMAS_FILES)
+datapackage.json: datapackage.yaml $(SCHEMAS_FILES)
 	@echo "Construindo datapackage.json..."
 	@frictionless describe --type package --json $< > $@
 
