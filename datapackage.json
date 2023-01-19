@@ -38,9 +38,9 @@
   "resources": [
     {
       "dialect": {
-        "delimiter": ","
+        "delimiter": ";"
       },
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
       "name": "repasses",
@@ -103,9 +103,9 @@
     },
     {
       "dialect": {
-        "delimiter": ","
+        "delimiter": ";"
       },
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
       "name": "termos-parceria-contratos-gestao",
@@ -232,7 +232,6 @@
           {
             "name": "DATA_INICIO_VIGENCIA",
             "type": "date",
-            "format": "%d/%m/%Y",
             "title": "Data de Início da Vigência",
             "description": "Data em que o instrumento jurídico se inicia, correspondente a data de publicação do mesmo no Diário Oficial dos Poderes do Estado de Minas Gerais.",
             "constraints": {
@@ -242,7 +241,6 @@
           {
             "name": "DATA_FIM_VIGENCIA",
             "type": "date",
-            "format": "%d/%m/%Y",
             "title": "Data Fim da Vigência",
             "description": "Data em que o instrumento jurídico terminou ou que será extinto.",
             "constraints": {
