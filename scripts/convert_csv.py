@@ -1,13 +1,16 @@
 import sys
 import pandas as pd
 
-def convert_csv(xlsx_file_path, csv_file_path):
+def convert_csv():
   # referências: https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03
   # referências: https://colab.research.google.com/drive/1R6SHFugbCEuy5ppjDFymquj3jjbgY7Sx?authuser=1
-  read_file = pd.read_excel (xlsx_file_path, "aditivos")
-  read_file.to_csv (csv_file_path, index = None, header=True, sep = ';', decimal = ',', encoding = 'utf-8-sig', na_rep = "")
+  xlsx_file_path = "upload/Sistema Gerencial.xlsx"
+  abas = ["aditivos", "relatorios", "repasses", "termo-parceria-contrato-gestao"]
+  for aba in abas:
+    read_file = pd.read_excel (xlsx_file_path, aba)
+    read_file.to_csv (f'data/{aba}.csv', index = None, header=True, sep = ';', decimal = ',', encoding = 'utf-8-sig', na_rep = "")
 
 if __name__ == '__main__':
-  convert_csv('C:/Users/Andre/Documents/teletrabalho/dados-mg/andrelamor/template-sejusp/upload/Sistema Gerencial.xlsx', 'C:/Users/Andre/Documents/teletrabalho/dados-mg/andrelamor/template-sejusp/data/teste.csv')
+  convert_csv()
 
-# parâmetro de read.escel para selecionar aba 
+# AttributeError: module 'sys' has no attribute 'arg'
