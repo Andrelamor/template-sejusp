@@ -40,7 +40,7 @@ resources:
     format: csv
     hashing: md5
     name: termos-parceria-contratos-gestao
-    path: data/termos-parceria-contratos-gestao.csv
+    path: data/termo-parceria-contrato-gestao.csv
     title: Termos de Parceria e Contratos de Gestão
     profile: tabular-data-resource
     schema: schemas/termos-parceria-contratos-gestao.yaml
