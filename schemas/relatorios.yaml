@@ -23,7 +23,6 @@ fields:
     description: Informa o período da avaliação do relatório
   - name: URL_DOCUMENTO
     type: string
-    format: uri
     title: URL do Documento
     description: Link para acessar o relatório
   - name: OBSERVACOES
