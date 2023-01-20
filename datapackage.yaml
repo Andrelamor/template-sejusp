@@ -30,6 +30,25 @@ resources:
     encoding: utf-8
     format: csv
     hashing: md5
+    name: aditivos
+    path: data/aditivos.csv
+    title: Aditivos
+    profile: tabular-data-resource
+    schema: schemas/aditivos.yaml
+    scheme: file
+  - dialect: schemas/dialect.yaml
+    encoding: utf-8
+    format: csv
+    hashing: md5
+    name: relatorios
+    path: data/relatorios.csv
+    title: Relatórios
+    profile: tabular-data-resource
+    schema: schemas/relatorios.yaml
+  - dialect: schemas/dialect.yaml
+    encoding: utf-8
+    format: csv
+    hashing: md5
     name: repasses
     path: data/repasses.csv
     title: Repasses

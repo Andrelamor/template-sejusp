@@ -43,6 +43,136 @@
       "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
+      "name": "aditivos",
+      "path": "data/aditivos.csv",
+      "title": "Aditivos",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_INSTRUMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Número do Instrumento",
+            "description": "Numeração do instrumento jurídico, estabelecida pela Secretaria de Estado de Planejamento e Gestão."
+          },
+          {
+            "name": "TIPO_DOCUMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Tipo de Documento",
+            "description": "Informa o tipo de documento a que se refere (Termo Aditivo, Memória de Cálculo, Termo de Apostilamento e Termo de Alteração Simples)"
+          },
+          {
+            "name": "DOCUMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Número do Documento",
+            "description": "Informa o número do documento"
+          },
+          {
+            "name": "URL_DOCUMENTO",
+            "type": "string",
+            "format": "uri",
+            "title": "URL do Documento",
+            "description": "Link para acessar o documento"
+          },
+          {
+            "name": "OBSERVACOES",
+            "type": "string",
+            "format": "default",
+            "title": "Observações",
+            "description": "Dados adicionais para esclarecer alguma informação sobre a linha"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "ID_INSTRUMENTO",
+            "reference": {
+              "resource": "termos-parceria-contratos-gestao",
+              "fields": "ID_INSTRUMENTO"
+            }
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "dialect": {
+        "delimiter": ","
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "relatorios",
+      "path": "data/relatorios.csv",
+      "title": "Relatórios",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_INSTRUMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Número do Instrumento",
+            "description": "Numeração do instrumento jurídico, estabelecida pela Secretaria de Estado de Planejamento e Gestão"
+          },
+          {
+            "name": "TIPO_DOCUMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Tipo de Documento",
+            "description": "Informa o tipo de relatório a que se refere"
+          },
+          {
+            "name": "DOCUMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Documento",
+            "description": "Informa o número do documento"
+          },
+          {
+            "name": "PERIODO_AVALIATORIO",
+            "type": "string",
+            "format": "default",
+            "title": "Período Avaliatório",
+            "description": "Informa o período da avaliação do relatório"
+          },
+          {
+            "name": "URL_DOCUMENTO",
+            "type": "string",
+            "format": "uri",
+            "title": "URL do Documento",
+            "description": "Link para acessar o relatório",
+            "missingValues":["", "-", "Não Divulgado"]
+          },
+          {
+            "name": "OBSERVACOES",
+            "type": "string",
+            "format": "default",
+            "title": "Observações",
+            "description": "Dados adicionais para esclarecer alguma informação sobre a linha"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "ID_INSTRUMENTO",
+            "reference": {
+              "resource": "termos-parceria-contratos-gestao",
+              "fields": "ID_INSTRUMENTO"
+            }
+          }
+        ]
+      },
+      "scheme": "file"
+    },
+    {
+      "dialect": {
+        "delimiter": ","
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hashing": "md5",
       "name": "repasses",
       "path": "data/repasses.csv",
       "title": "Repasses",
