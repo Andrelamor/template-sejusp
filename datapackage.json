@@ -99,9 +99,9 @@
     },
     {
       "dialect": {
-        "delimiter": ","
+        "delimiter": ";"
       },
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
       "name": "relatorios",
@@ -143,8 +143,7 @@
             "type": "string",
             "format": "uri",
             "title": "URL do Documento",
-            "description": "Link para acessar o relatório",
-            "missingValues":["", "-", "Não Divulgado"]
+            "description": "Link para acessar o relatório"
           },
           {
             "name": "OBSERVACOES",
@@ -168,9 +167,9 @@
     },
     {
       "dialect": {
-        "delimiter": ","
+        "delimiter": ";"
       },
-      "encoding": "utf-8",
+      "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
       "name": "repasses",
